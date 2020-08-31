@@ -15,4 +15,4 @@ jobs:
           PAGELY_INTEGRATION_SECRET: ${{secrets.JG3_INTEGRATION_SECRET}}
           PAGELY_INTEGRATION_ID: "pvhShkLd5uoBBeBNejBY5V"
           PAGELY_APP_ID: "31485"
-          PAGELY_WORKING_DIR: {{$github.workspace}}
+          PAGELY_WORKING_DIR: ${{github.workspace}}
